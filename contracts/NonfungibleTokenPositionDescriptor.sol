@@ -16,10 +16,10 @@ import './libraries/TokenRatioSortOrder.sol';
 /// @title Describes NFT token positions
 /// @notice Produces a string containing the data URI for a JSON metadata string
 contract NonfungibleTokenPositionDescriptor is INonfungibleTokenPositionDescriptor {
-    address private constant DAI = 0x9FD8fa98F0a7D20d7734aa7d0afD396fCD0923B9;
-    address private constant USDC = 0x61759317e2D6Ce05d79F35423b98B27efC15CE34;
-    address private constant USDT = 0x9b80873119412f965428B18B362A583f3e96A5B3;
-    address private constant WBTC = 0xEE660892C8131A56D86751645fD7B514eFa8Df3b;
+    address private constant DAI = 0xF573fA04A73d5AC442F3DEa8741317fEaA3cDeab;
+    address private constant USDC = 0x1a1A3b2ff016332e866787B311fcB63928464509;
+    address private constant USDT = 0x2F8A25ac62179B31D62D7F80884AE57464699059;
+    address private constant WBTC = 0xDa4AaEd3A53962c83B35697Cd138cc6df43aF71f;
 
 
     address public immutable WETH9;
